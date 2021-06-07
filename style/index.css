@@ -1,0 +1,204 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing:border-box; /*this tells border and padding to be applied withing the width, rather than in addition to it*/
+    max-width:100%;/*You can never be bigger than your parent - this is going to stop the dreaded horizontal scroll bar */
+    /* border:1px solid grey; */
+    margin:0;
+    padding:0;
+}
+/* General Styles */
+html{
+    font-size:62.5%;
+}
+
+body{
+    background-color:lavenderblush;
+    font-family:'Hind Madurai', sans-serif;
+    font-size:1.9rem;
+    line-height:1.5;
+    color:#4f4f4f;
+}
+h1,h2,h3{
+    font-family:'Hind Madurai', sans-serif;
+    color:#4f4f4f;
+    text-align:center;
+}
+h1{
+    font-size:5rem;
+}
+h2{
+    font-size:3.5rem;
+}
+h3{
+    font-size:2.5rem;
+}
+section{
+    padding:2% 0;
+}
+a{
+    font-family:'Hind Madurai', sans-serif;
+    text-decoration:none;
+    color:#4f4f4f;
+}
+/* Header Section Styles */
+header{
+    background-color:lemonchiffon;
+    padding-top:2%;
+}
+header h1{
+    padding-left:2%;
+    text-align: left;
+}
+nav{
+    display:flex;
+    width:70%;
+    justify-content:center;
+    padding-bottom:2%;
+}
+.link{
+    width:80%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav .link a{
+    padding: 1.5% 0;
+    background-color:whitesmoke;
+    color:;
+    width:20%;
+    text-align:center;
+}
+section{
+    margin: 1.5% 2%;
+}
+/* Top Section Styles */
+#top{
+    height:50vh;
+    display:flex;
+    justify-content:flex-start;
+}
+.topimage{
+    width:60%;
+    background-image: url("https://picsum.photos/400/300");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.introduction{
+    width:30%;
+    display:flex;
+    flex-flow:column;
+    justify-content: flex-end;
+    margin-left:5%;
+    padding-top: 5%;
+}
+.introduction a{
+    padding: 1% 0;
+    background-color:whitesmoke;
+    width:40%;
+    text-align: center;
+}
+.introduction p{
+    padding: 5% 0 10% 0;
+    text-align: left;
+}
+.introduction h2{
+    padding: 0 0 2% 0; 
+    text-align: left;
+}
+/* Body Section Styles */
+
+#gallery{
+    height:60vh;
+    width:100%;
+    display:flex;
+    flex-flow:column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding-right:2%;
+}
+
+.container{
+    width:100%;
+    display:flex;
+    flex-flow:row;
+    justify-content: space-between;
+    align-items: space-around;
+    margin-bottom:3%;
+}
+.imgtxt{
+    width:20%;
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+
+}
+.projectimg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.one{
+    width:250px;
+    height:250px;
+    background-image: url("https://picsum.photos/200");
+}
+
+/* Footer Section Style */
+
+footer{
+    background-color: lemonchiffon;
+    padding: 2% 0;
+    text-align: center;
+}
+#bottom{
+    display:flex;
+    justify-content: center;
+}
+.social{
+    width:30%;
+    display:flex;
+    justify-content: center;
+}
+.social a{
+    margin: 0 5%;
+}
+s
